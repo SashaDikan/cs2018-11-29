@@ -9,5 +9,20 @@ package by.it._tasks_.lesson02;
 */
 
 class TaskA2 {
+    private static final String TEXT = "Я начинаю изучать Java!";
+    public static void main (String[] arg) {
+        System.out.println(TEXT);
+        String s = "Я начинаю изучать Java!";
 
-}
+        printTextMoreTimes(s, 5);
+    }
+
+        private static void printTextMoreTimes (String phrase, int count) {
+            for  (int i = 1; i < count; i++) {
+              System.out.println(phrase);
+            }
+        }
+    }
+
+
+
